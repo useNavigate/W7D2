@@ -1,0 +1,11 @@
+<h1>this is Login page </h1>
+
+<form action="<%= session_url %>" method="POST">
+
+    <%# <input type="hidden" name=_method value='POST'> %>
+        <label for ='email'> Email : </label>
+        <input type="text" id="email" name="user[email]">
+        <label for ='password'> Password : </label>
+        <input type="password" id="password" name="user[password]">
+    <input type="submit" value="Log in">
+</form>
